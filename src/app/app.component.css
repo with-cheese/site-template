@@ -1,0 +1,33 @@
+.name {
+    font-family: "Roboto";
+    font-size: xx-large;
+}
+
+.top {
+    background-color: #ffffff;
+    height: 15vh;
+}
+
+.mid {
+    background-color: #ffffff;
+    height: 55vh;
+    overflow-x: hidden;
+}
+
+.image {
+    /*margin-top: 5vh;*/
+    height: 45vh;
+    padding-right: 2vw;
+}
+
+.bottom {
+    background-color: #000000;
+    height: 30vh;
+}
+
+.commercial-break {
+    font-family: "Roboto";
+    font-size: small;
+    color: #ffffff;
+    text-align: center;
+}
