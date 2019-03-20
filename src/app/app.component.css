@@ -44,7 +44,11 @@
     font-size: xx-small;
 }
 
-a {
+.a-underline {
     color: #ffffff;
     text-decoration: underline;
+}
+
+a {
+    color: #ffffff;
 }
