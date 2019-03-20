@@ -8,7 +8,7 @@ declare var externalJS: any;
 })
 
 export class AppComponent implements OnInit {
-    public title = 'site-template';
+    public title = 'Martin Kellerman';
     public images = [ {'title' : 'img1', 'src': 'Martin_1.png'},
                       {'title' : 'img2', 'src': 'Martin_2.png'},
                       {'title' : 'img3', 'src': 'Martin_3.png'},
