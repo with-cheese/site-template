@@ -1,36 +1,22 @@
 <div class="d-flex justify-content-center top">
-   <div class="d-flex align-items-center name">Sven-Åke Ökentäppa</div>
+   <div class="d-flex align-items-center name">Martin Kellerman</div>
 </div>
-<div class="d-flex justify-content-center mid">
-        <!--div id="myCaro" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block image" src="assets/images/Martin_1.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block image" src="assets/images/Martin_2.png" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block image" src="assets/images/Martin_2.png" alt="Third slide">
-                </div>
-            </div>
-
-        </div-->
-        <div class="your-class">
-            <div><img class="image"src="assets/images/Martin_1.png" alt="First slide"></div>
-            <div><img class="image" src="assets/images/Martin_2.png" alt="First slide"></div>
-            <div><img class="image" src="assets/images/Martin_3.png" alt="First slide"></div>
-            <div><img class="image" src="assets/images/Martin_4.png" alt="First slide"></div>
-            <div><img class="image" src="assets/images/Martin_5.png" alt="First slide"></div>
-            <div><img class="image" src="assets/images/Martin_6.png" alt="First slide"></div>
+<div class="mid">
+    <div class="your-class">
+        <div *ngFor="let image of images;">
+            <img class="image" src="assets/images/{{ image.src }}" alt="{{ image.title }}">
         </div>
+    </div>
 </div>
 <div class="d-flex justify-content-center bottom">
-    <div class="commercial-break"><br>
-        För böcker klicka här<br>
-        Instagram: @ökentäppa<br>
-        Facebook: /sven.åke.ökentäppa<br>
-        Twitter: @ökentäppa<br>
-        För kontakt och uppdrag: info@ökentäppa.se<br>
+    <div class="d-flex align-items-center commercial-break">
+        <div>
+            <p>För böcker <a target="_blank" href="https://www.google.com">klicka här</a></p>
+            <p>Instagram: <a target="_blank" href="https://www.instagram.com/with-cheese">@ökentäppa</a></p>
+            <p>Facebook: /sven.åke.ökentäppa</p>
+            <p>Twitter: @ökentäppa</p>
+            <p>För kontakt och uppdrag: info@ökentäppa.se</p>
+            <div class="official-home-page">Officiell hemsida</div
+        ></div>
     </div>
 </div>

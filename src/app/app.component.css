@@ -1,6 +1,7 @@
 .name {
     font-family: "Roboto";
     font-size: xx-large;
+    font-weight: bold;
 }
 
 .top {
@@ -10,19 +11,20 @@
 
 .mid {
     background-color: #ffffff;
-    height: 55vh;
+    height: 50vh;
     overflow-x: hidden;
+    /*padding-top: 5vh;*/
 }
 
 .image {
-    /*margin-top: 5vh;*/
     height: 45vh;
-    padding-right: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .bottom {
     background-color: #000000;
-    height: 30vh;
+    height: 35vh;
 }
 
 .commercial-break {
@@ -30,4 +32,19 @@
     font-size: small;
     color: #ffffff;
     text-align: center;
+}
+
+.commercial-break p {
+    margin-top: 0.3vh;
+    margin-bottom: 0.3vh;
+}
+
+.official-home-page {
+    margin-top: 2vh;
+    font-size: xx-small;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
 }

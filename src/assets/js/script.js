@@ -2,30 +2,21 @@ var externalJS = (function() {
   return {
     initCarousel: function() {
       $('.your-class').slick({
-          infinite: true,
-          speed: 1000,
-          slidesToShow: 1,
+        /*  speed: 1000,
           centerMode: true,
+          infinite: true,
           autoplay: true,
+          variableWidth: true,*/
+          autoplay: true,
+          centerMode: true,
+          infinite: true,
           variableWidth: true,
-          arrows: false
-          })
+          arrows: false,
+          swipe: true,
+          swipeToSlide: true,
+          touchMove: true
+          });
     }
 }
 
 })(externalJS||{});
-
-
-
-/*
-slidesToScroll: 1,
-          infinite: true,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          arrows: false,
-          slidesToShow: 1
-*/
-      /*$('.carousel').carousel({
-        interval: 3000,
-        pause: false
-      })*/

@@ -8,10 +8,13 @@ declare var externalJS: any;
 })
 
 export class AppComponent implements OnInit {
-    title = 'site-template';
-    images = [  {'title' : 'img1', 'src': 'image1.png'},
-                {'title' : 'img2', 'src': 'image2.png'},
-                {'title' : 'img3', 'src': 'image3.png'}];
+    public title = 'site-template';
+    public images = [ {'title' : 'img1', 'src': 'Martin_1.png'},
+                      {'title' : 'img2', 'src': 'Martin_2.png'},
+                      {'title' : 'img3', 'src': 'Martin_3.png'},
+                      {'title' : 'img4', 'src': 'Martin_4.png'},
+                      {'title' : 'img5', 'src': 'Martin_5.png'},
+                      {'title' : 'img6', 'src': 'Martin_6.png'}];
 
     ngOnInit() {
         setTimeout(() => { externalJS.initCarousel(); }, 500);
