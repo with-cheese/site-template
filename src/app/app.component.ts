@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
                       {'title' : 'img5', 'src': 'Stenmark_5.png'},
                       {'title' : 'img6', 'src': 'Stenmark_6.png'},
                       {'title' : 'img7', 'src': 'Stenmark_7.png'},
-                      {'title' : 'img8', 'src': 'Nina_8.png'},
+                      {'title' : 'img8', 'src': 'Stenmark_8.png'},
                       {'title' : 'img9', 'src': 'Stenmark_9.png'}];
 
     ngOnInit() {
