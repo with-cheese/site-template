@@ -39,16 +39,13 @@
     margin-bottom: 0.3vh;
 }
 
+
 .official-home-page {
     margin-top: 2vh;
     font-size: xx-small;
 }
 
-.a-underline {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
 a {
     color: #ffffff;
+    text-decoration: underline;
 }
